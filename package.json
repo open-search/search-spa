@@ -1,0 +1,31 @@
+{
+  "name": "search-spa",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/open-search/search-spa.git"
+  },
+  "bugs": "https://github.com/open-search/search-spa/issues",
+  "private": true,
+  "devDependencies": {
+    "enzyme": "^2.7.1",
+    "react-addons-test-utils": "^15.4.2",
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "history": "^4.5.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
+    "redux": "^3.6.0",
+    "whatwg-fetch": "^2.0.3",
+    "wordify": "0.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
