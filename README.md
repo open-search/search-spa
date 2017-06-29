@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/open-search/search-spa.svg?branch=master)](https://travis-ci.org/open-search/search-spa)
+
 # Open Search SPA
 
 This is an example app using React to interface with our open search elastic api.
