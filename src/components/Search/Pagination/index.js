@@ -1,5 +1,5 @@
 import React from 'react';
-import { pagination } from '../../../constants';
+import { pagination } from '../../../../constants';
 
 function getPageArray(current, limit, total) {
   let result = [];

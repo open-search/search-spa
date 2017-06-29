@@ -31,6 +31,7 @@ class SearchForm extends Component {
         <form action="/search" method="get" onSubmit={this.doSearch}>
           <input
             ref={input => this.term = input}
+            required
             type="search" name="search"
             placeholder="Search term" />
           <button

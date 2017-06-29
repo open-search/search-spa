@@ -1,5 +1,5 @@
 import React from 'react';
-import { title } from '../../constants';
+import { title } from '../../../constants';
 
 class Header extends React.Component {
 

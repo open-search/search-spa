@@ -1,5 +1,5 @@
 import React from 'react';
-import { title, year } from '../../constants';
+import { title, year } from '../../../constants';
 
 class Footer extends React.Component {
 

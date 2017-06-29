@@ -4,10 +4,11 @@ import Pagination from '../Pagination';
 import Preview from '../Preview';
 import Spinner from '../Spinner';
 import { get } from '../../Utils';
+import { api } from '../../../../constants';
 import wordify from 'wordify';
 
 function generateUniqueId({ index, type, id }) {
-  return `/api/search/${index}/${type}/${id}`;
+  return `${api}/${index}/${type}/${id}`;
 }
 
 function getPre(content) {
@@ -47,7 +48,7 @@ class SearchResults extends React.Component {
           return this.setState({ content: result, });
         }
 
-        throw 'Invalid document';
+        throw new Error('Invalid document');
       })
       .catch(error => {
         this.setState({ content: error.message, });

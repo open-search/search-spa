@@ -1,0 +1,45 @@
+{
+  "title": "Open search",
+  "year": "2016",
+  "api": "/search",
+  "pagination": {
+    "from": 0,
+    "size": 10,
+    "limit": 12
+  },
+  "error": {
+    "404": "Page not found"
+  },
+  "help": [{
+      "id": "wildcard-searches",
+      "summary": "Wildcard search (*) with a partial word or number",
+      "tip": "replace letters or numbers with a wildcard asterix (*) to search for a partial word or number.",
+      "copy": "<h2 id=\"wildcard-searches\">Wildcard search</h2><p>You can use an asterisk (*) to replace one or more letters or numbers in a search. This will return matches for a partial word or number.</p><h3>Example 1</h3><input disabled type=\"text\" style=\"width: 80%\" class=\"form-control\" value=\"comm*\"><p>This will return results for that word such as <mark>communication</mark>, <mark>communist</mark>, <mark>communism</mark>.</p>"
+    }, {
+      "id": "exact-search",
+      "summary": "Search for an exact word or phrase (\" \")",
+      "tip": "put your search inside double quotes (\" \") for an exact word or phrase match.",
+      "copy": "<h2 id=\"exact-search\">Exact words and phrases</h2><p>Putting your search in double quotes (\" \") will return documents with an exact match of that word, phrase or number.</p><p>This can be useful when looking for a complicated phrase.</p><h3>Example 1</h3><input disabled type=\"text\" style=\"width: 80%\" class=\"form-control\" value=\"\"Harry Potter\"\"><p>This will only return documents containing the name <mark>Harry Potter</mark>.</p>"
+    }, {
+      "id": "fuzzy-search",
+      "summary": "Fuzzy search (~) to include misspelled or similar words or numbers",
+      "tip": "add a tilde (~) after a search to return results different by one letter or number.",
+      "copy": "<h2 id=\"fuzzy-search\">Fuzzy search</h2><p>You can search for misspelled or similar words by adding a tilde (~) after a search term. We call this a fuzzy search. It works by looking for words that have one letter more, one letter less or one letter different to the original search term.</p>"
+    }, {
+      "id": "single-wildcard",
+      "summary": "Search for words where a specific letter is different (?)",
+      "tip": "replace a letter with a question mark (?) to search for words where a specific letter is different.",
+      "copy": "<h2 id=\"single-wildcard\">Single letter wildcard</h2><p>Replacing any letter in your search term with a question mark (?) will return all variations of a word where that specific letter is different.</p>"
+    }, {
+      "id": "excluding-terms",
+      "summary": "Exclude words or phrases from search results (-)",
+      "tip": "exclude certain words from your search by adding a minus sign or dash (-) in front.",
+      "copy": "<h2 id=\"excluding-terms\">Excluding terms</h2><p>Putting a minus sign (-) before a word will ignore documents that contain that word.</p>"
+    }, {
+      "id": "proximity-search",
+      "summary": "Proximity search to find documents where words appear close together",
+      "tip": "to find documents where 2 words appear near to one other, add double quotes (\" \"), a tilde (~), then a number for how many letters apart the words should be.",
+      "copy": "<h2 id=\"proximity-search\">Proximity search</h2><p>You can search for words that appear close together in documents by putting the key words you want to search for in double quotes (\" \"). You then need to add  a tilde (~) and a number representing how many words apart the search terms should be in a report.</p><h3>Example 1</h3><input disabled type=\"text\" style=\"width: 80%\" class=\"form-control\" value=\"\"harry voldemort\"~40\"><p>This will return documents containing the words <mark>harry</mark> and <mark>voldemort</mark> up to 40 words apart.</p>"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import SearchForm from './SearchForm';
 import SearchResults from './SearchResults';
 import Spinner from './Spinner';
 let Error = props => (
-  props.message ? <div>{props.message}</div> : null
+  props.message ? <div className="error">{props.message}</div> : null
 );
 
 class Search extends Component {

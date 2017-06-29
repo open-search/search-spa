@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Navigation from '../Navigation';
-import { api, pagination } from '../../constants';
+import { api, pagination } from '../../../constants';
 import { get } from '../Utils';
 
 class App extends Component {

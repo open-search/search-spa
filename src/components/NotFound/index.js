@@ -1,5 +1,5 @@
 import React from 'react';
-import { error } from '../../constants';
+import { error } from '../../../constants';
 
 class NotFound extends React.Component {
 

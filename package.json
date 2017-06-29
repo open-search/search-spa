@@ -1,11 +1,12 @@
 {
   "name": "search-spa",
+  "description": "Example React app for interfacing with the related elasticsearch api",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/open-search/search-spa.git"
+    "url": "https://github.com/open-search/search-spa/search-spa.git"
   },
-  "bugs": "https://github.com/open-search/search-spa/issues",
+  "bugs": "https://github.com/open-search/search-spa/search-spa/issues",
   "private": true,
   "devDependencies": {
     "enzyme": "^2.7.1",

@@ -37,7 +37,7 @@ nav > ul > li a {
   text-decoration: none;
 }
 
-nav > ul > li a:hover, nav > ul > li a:focus {
+nav > ul > li a:hover, nav > ul > li a:focus, nav > ul > li > a.active {
   background-color: #33c3f0;
   color:black;
 }
@@ -163,6 +163,10 @@ section > div > footer {
 }
 
 .preview-window__open article .metadata {}
+
+.preview-link {
+  cursor: pointer;
+}
 
 /* Bigger than 550 */
 @media (min-width: 550px) {

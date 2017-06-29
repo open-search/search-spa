@@ -32,7 +32,7 @@ class Result extends React.Component {
           <li>Download <a target="_blank"
             href={_source.download}>{_source.title}</a> (pdf)
           </li>
-          <li className="preview-link"><a onClick={() =>
+          <li><a className="preview-link" onClick={() =>
             this.props.showModal({ index: _index, type: _type, id: _id })
           }>
             (see preview)</a></li>

@@ -1,11 +1,7 @@
 import React from 'react';
 import { mount, render, shallow } from 'enzyme';
-import { pagination } from '../../../../constants';
+import { pagination } from '../../../../../constants';
 import Pagination from '..';
-
-it('renders without crashing', () => {
-  shallow(<Pagination />);
-});
 
 it('renders a list', () => {
   const from = 0;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-dom';
 
 import Header from '../Header';
 import Footer from '../Footer';
@@ -27,8 +27,8 @@ class Navigation extends Component {
         <div className="content">
           <nav>
             <ul>
-              <li><Link to="/">Search</Link></li>
-              <li><Link to="/help">Help</Link></li>
+              <li><NavLink exact to="/">Search</NavLink></li>
+              <li><NavLink exact to="/help">Help</NavLink></li>
             </ul>
           </nav>
           <main className="container">
